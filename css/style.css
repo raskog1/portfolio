@@ -3,13 +3,9 @@
     padding: 0;
     margin: 0;
 }
-/*
+
 .container {
-    float: left;
-}
-*/
-main {
-    width: 90%;
+    width: 100%;
     margin: 30px auto;
 }
 
@@ -23,16 +19,19 @@ header h1 {
     display: inline-block;
 }
 
-a {
-    font-size: 20px;
+h2 {
+    margin-top: 40px;
 }
 
-aside {
-    float: left;
-   
-    width: 350px;
-    display: inline;
+a {
+    font-size: 18px;
 }
+
+/*
+a:visited {
+    color: crimson;
+}
+*/
 
 aside ul li {
     margin-bottom: 40px;
@@ -58,17 +57,31 @@ img.floatLeft {
     margin: 15px;
 }
 
+footer {
+    text-align: center;
+}
+
 
 
 /* Media Queries */
 
 @media only screen and (max-width: 768px) {
 
-    [class*="col-"] {
-        width: 100%;
-    }
-
+.projects h2 {
+    text-align: center;
 }
 
+.card {
+    margin: 15px auto;
+}
+
+aside h3 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+aside p {
+    text-align: center;
+}
 
 }
