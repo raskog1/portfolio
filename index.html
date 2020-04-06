@@ -14,10 +14,12 @@
 
 <body>
 
-    <header>
+    <header class="bg-dark">
+
+        <!-- Title -->
+        <h1 class="text-info">Ryan Skog</h1>
+
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <!-- Title -->
-            <h1>Ryan Skog</h1>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -38,70 +40,103 @@
                     </li>
                 </ul>
             </div>
+
         </nav>
+
     </header>
 
 
 
     <!--Image, bio text, and featured projects grid-->
-    <main class="bio-info">
+    <main>
+
         <div class="container">
-
-            <!--Image and bio text-->
             <div class="row">
-                <div class="col-4">
-                    <img src="assets/trophy.png" alt="Ryan Skog" width="200px" height="200px">
-                </div>
-                <div class="col-8">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores amet commodi quas labore,
-                        voluptas quae
-                        consectetur voluptates aperiam exercitationem cumque distinctio quis eos, perferendis eveniet
-                        tempore,
-                        corporis dicta fuga. Facere. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-                        amet
-                        commodi quas labore,
-                        voluptas quae
-                        consectetur voluptates aperiam exercitationem cumque distinctio quis eos, perferendis eveniet
-                        tempore,
-                        corporis dicta fuga. Facere.</p>
-                </div>
-            </div>
+                <div class="col-md-12 col-lg-10">
 
-            <!--Featured projects-->
-            <section class="projects">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="card-deck">
-                            <div class="card bg-primary text-white text-center">
-                                <div class=" card-body">Featured Project 1</div>
+                    <!--Image and bio text-->
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="assets/trophy.png" class="floatLeft" alt="Ryan Skog" width="200px" height="200px">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores amet commodi quas
+                                labore,
+                                voluptas quae
+                                consectetur voluptates aperiam exercitationem cumque distinctio quis eos, perferendis
+                                eveniet
+                                tempore,
+                                corporis dicta fuga. Facere. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Dolores
+                                amet
+                                commodi quas labore,
+                                voluptas quae
+                                consectetur voluptates aperiam exercitationem cumque distinctio quis eos, perferendis
+                                eveniet
+                                tempore,
+                                corporis dicta fuga. Facere.</p>
+                        </div>
+                    </div>
+
+                    <!--Featured projects-->
+                    <section class="projects">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card bg-info text-white text-center">
+                                    <div class="card-body">Featured Project 1</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card bg-info text-white">
+                                    <div class="card-body">Featured Project 2</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-6 col-lg-4">
+                                <div class="card bg-info text-white">
+                                    <div class="card-body">Featured Project 3</div>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <div class="card bg-primary text-white">
-                                <div class="card-body">Featured Project 2</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-4">
-                            <div class="card bg-primary text-white">
-                                <div class="card-body">Featured Project 3</div>
-                            </div>
-                        </div>
-            </section>
+                    </section>
+                </div>
+                <!--closes column-->
+
+
+
+
+                <div class="col-md-0 col-lg-2">
+                    <!--Links sidebar-->
+                    <aside>
+                        <h3>Support Links for Coding</h3>
+                        <p>Visit the following websites that assisted in developing this website</p>
+                        <br>
+                        <ul>
+                            <li>
+                                <h6>W3 Schools</h6>
+                                <a href="https://www.w3schools.com/" target="_blank">www.w3schools.com</a>
+                            </li>
+                            <li>
+                                <h6>Stack Overflow</h6>
+                                <a href="https://stackoverflow.com/" target="_blank">stackoverflow.com</a>
+                            </li>
+                            <li>
+                                <h6>Traversy Media</h6>
+                                <a href="https://www.traversymedia.com/" target="_blank">www.traversymedia.com</a>
+                            </li>
+                            <li>
+                                <h6>Net Ninja</h6>
+                                <a href="https://www.thenetninja.co.uk/" target="_blank">www.thenetninja.co.uk</a>
+                            </li>
+                        </ul>
+                    </aside>
+                </div>
+                <!--ends column-->
+
+            </div>
+            <!--ends row-->
 
         </div>
-        <!--End container-->
-    </main>
+        <!--ends container-->
 
-    <!--Links sidebar-->
-    <aside>
-        <h4>Support Links for Coding</h4>
-        <ul>
-            <li><a href="#">Super Cool Link 1</a></li>
-            <li><a href="#">Super Cool Link 1</a></li>
-            <li><a href="#">Super Cool Link 1</a></li>
-            <li><a href="#">Super Cool Link 1</a></li>
-        </ul>
-    </aside>
+    </main>
 </body>
 
 </html>
