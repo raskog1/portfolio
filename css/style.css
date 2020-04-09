@@ -27,9 +27,12 @@ a {
     font-size: 18px;
 }
 
-aside a:hover {
-    color: #ff9933;
+a:hover {
     text-decoration: none;
+}
+
+.orangeHover:hover {
+    color: #ff9933;
 }
 
 /*
