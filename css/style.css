@@ -27,6 +27,11 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    color: #ff9933;
+    text-decoration: none;
+}
+
 /*
 a:visited {
     color: crimson;
@@ -42,6 +47,16 @@ img.floatLeft {
     margin: 6px;
 }
 
+
+/* Card image blur */
+.projects img {
+    filter: blur(3px);
+}
+
+/* Card hover effect */
+.projects a h5:hover {
+    color: #ff9933;
+}
 
 .navbar {
     float: right;
