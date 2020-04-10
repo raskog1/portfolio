@@ -9,16 +9,13 @@
     margin: 30px auto;
 }
 
-header {
-    
-}
-
 header h1 {
     font-size: 48px;
     text-indent: 20px;
     display: inline-block;
 }
 
+/*Featured Projects Header*/
 h2 {
     margin-top: 40px;
 }
@@ -31,36 +28,6 @@ a:hover {
     text-decoration: none;
 }
 
-.orangeHover:hover {
-    color: #ff9933;
-}
-
-/*
-a:visited {
-    color: crimson;
-}
-*/
-
-aside ul li {
-    margin-bottom: 40px;
-}
-
-img.floatLeft {
-    float: left;
-    margin: 6px;
-}
-
-
-/* Card image blur */
-.projects img {
-    filter: blur(3px);
-}
-
-/* Card hover effect */
-.projects a h5:hover {
-    color: #ff9933;
-}
-
 .navbar {
     float: right;
 }
@@ -69,10 +36,35 @@ img.floatLeft {
     margin: 0 15px;
 }
 
+/*Profile image only*/
+img.floatLeft {
+    float: left;
+    margin: 6px;
+}
+
+/* Card image blur */
+.projects img {
+    filter: blur(3px);
+}
+
+/* Card hover effect */
+.projects a h4:hover {
+    color: #ff9933;
+}
+
 .card {
     width: 200px;
     height: 200px;
     margin: 15px;
+}
+
+aside ul li {
+    margin-bottom: 40px;
+}
+
+/*Overrides BS4 link hover color in aside*/
+.orangeHover:hover {
+    color: #ff9933;
 }
 
 footer {
@@ -83,22 +75,48 @@ footer {
 
 /* Media Queries */
 
+@media only screen and (max-width: 640px) {
+
+/*Shrinks text for better wrapping around image*/
+body {
+    font-size: 14px;
+}
+
+/*Normalizes header height to same height as condensed navbar*/
+header {
+    height: 58px;
+}
+
+header h1 {
+    padding-top: 5px;
+    font-size: 36px;
+}
+
+/*Shrinks profile image*/
+.floatLeft {
+    width: 150px;
+    height: 150px;
+}
+
+}
+
+
 @media only screen and (max-width: 768px) {
+
+/*Creates space between cards, and centers them*/
+.card {
+    margin: 15px auto;
+}
+
+}
+
+@media only screen and (max-width: 980px) {
 
 .projects h2 {
     text-align: center;
 }
 
-.card {
-    margin: 15px auto;
-}
-
-aside h3 {
-    text-align: center;
-    margin-top: 30px;
-}
-
-aside p {
+aside p, h3 {
     text-align: center;
 }
 
