@@ -60,6 +60,7 @@ img.floatLeft {
 
 aside ul li {
     margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 /*Overrides BS4 link hover color in aside*/
