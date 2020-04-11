@@ -113,6 +113,11 @@ header h1 {
 
 @media only screen and (max-width: 980px) {
 
+/*Adds white space so footer does not overlap content*/    
+body {
+    padding-bottom: 50px;
+}
+
 .projects h2 {
     text-align: center;
 }
