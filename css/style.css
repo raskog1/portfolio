@@ -4,15 +4,31 @@
     margin: 0;
 }
 
+body {
+    padding-bottom: 60px;
+    background-image: url("../assets/Images/sand.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Photo by Anchor Lee on Unsplash */
+}
+
 .container {
     width: 100%;
     margin: 30px auto;
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header h1 {
     font-size: 48px;
+    color: #17a2b8;
     text-indent: 20px;
     display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+}
+
+header h1:hover {
+    color: #ff9933;
 }
 
 /*Featured Projects Header*/
@@ -44,23 +60,45 @@ img.floatLeft {
 
 /* Card image blur */
 .projects img {
-    filter: blur(3px);
+    filter: blur(2px);
+}
+
+.card-title {
+    line-height: initial;
+    vertical-align: middle;
 }
 
 /* Card hover effect */
-.projects a h4:hover {
+.card-title:hover {
     color: #ff9933;
+}
+
+.card:hover {
+    color: #ff9933;
+    background-color: #ff9933;
 }
 
 .card {
     width: 200px;
     height: 200px;
     margin: 15px;
+    background-color: #17a2b8;
+    color: #17a2b8;
+}
+
+aside {
+    margin-left: 30px;
 }
 
 aside ul li {
     margin-bottom: 40px;
     margin-left: 20px;
+    list-style: none;
+}
+
+.contact-icons {
+    margin: auto;
+    text-align: center;
 }
 
 /*Overrides BS4 link hover color in aside*/
@@ -70,6 +108,7 @@ aside ul li {
 
 footer {
     text-align: center;
+    background-color: #17a2b8;
 }
 
 
@@ -93,12 +132,19 @@ header h1 {
     font-size: 36px;
 }
 
+.header-icons {
+  margin-top: 10px;
+}
+
 /*Shrinks profile image*/
 .floatLeft {
     width: 150px;
     height: 150px;
 }
 
+aside {
+    margin-left: 0;
+}
 }
 
 
@@ -108,14 +154,13 @@ header h1 {
 .card {
     margin: 15px auto;
 }
-
 }
 
 @media only screen and (max-width: 980px) {
 
 /*Adds white space so footer does not overlap content*/    
 body {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .projects h2 {
@@ -125,5 +170,4 @@ body {
 aside p, h3 {
     text-align: center;
 }
-
 }

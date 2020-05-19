@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ryan Skog - Portfolio</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -17,7 +17,7 @@
 
         <!-- Title -->
         <a href="index.html">
-            <h1 class="text-info">Ryan Skog</h1>
+            <h1>Ryan Skog</h1>
         </a>
 
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
@@ -41,9 +41,7 @@
                     </li>
                 </ul>
             </div>
-
         </nav>
-
     </header>
 
     <div class="container">
@@ -53,7 +51,7 @@
             <div class="row">
                 <div class="col-md-4 col-lg-3">
                     <a href="https://raskog1.github.io/code-refactor/" target="_blank">
-                        <div class="card bg-info text-info text-center">
+                        <div class="card text-center">
                             <img src="assets/horiseon.png" alt="Horiseon developer" width="200px" height="200px">
                             <div class="card-img-overlay">
                                 <h4 class="card-title"><strong>Horiseon Code Refactor</strong></h4>
@@ -63,7 +61,7 @@
                 </div>
                 <div class="col-md-4 col-lg-3">
                     <a href="https://raskog1.github.io/hangman/" target="_blank">
-                        <div class="card bg-info text-info text-center">
+                        <div class="card text-center">
                             <img src="assets/hangman2.jpg" alt="Stick figure hangman" width="200px" height="200px">
                             <div class="card-img-overlay">
                                 <h4 class="card-title"><strong>JavaScript Hangman</strong></h4>
@@ -73,7 +71,7 @@
                 </div>
                 <div class="col-md-4 col-lg-3">
                     <a href="http://raskog1.github.io/code-quiz/" target="_blank">
-                        <div class="card bg-info text-info text-center">
+                        <div class="card text-center">
                             <img src="assets/blue.png" alt="Blue hex pattern" width="200px" height="200px">
                             <div class="card-img-overlay">
                                 <h4 class="card-title"><strong>JavaScript Code Quiz</strong></h4>
@@ -82,30 +80,54 @@
                     </a>
                 </div>
                 <div class="col-md-4 col-lg-3">
-                    <div class="card border-info bg-white text-info text-center">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Coming Soon...</strong></h5>
+                    <a href="https://raskog1.github.io/dayplanner/" target="_blank">
+                        <div class="card text-center">
+                            <img src="assets/dayplanner.png" alt="Dayplanner" width="200px" height="200px">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title"><strong>Dayplanner</strong></h4>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4 col-lg-3">
-                    <div class="card border-info bg-white text-info text-center">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Coming Soon...</strong></h5>
+                    <a href="https://raskog1.github.io/weather-app/" target="_blank">
+                        <div class="card text-center">
+                            <img src="assets/Rain.jpg" alt="Child's drawing of rain cloud" width="200px" height="200px">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title"><strong>Weather App</strong></h4>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4 col-lg-3">
-                    <div class="card border-info bg-white text-info text-center">
-                        <div class="card-body">
-                            <h5 class="card-title"><strong>Coming Soon...</strong></h5>
+                    <a href="https://raskog1.github.io/UCDBC-HappyHour/" target="_blank">
+                        <div class="card text-center">
+                            <img src="assets/quarantineMap.png" alt="Map of Sacramento" width="200px" height="200px">
+                            <div class="card-img-overlay">
+                                <h4 class="card-title"><strong>Beer me NOW!</strong></h4>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <script>
+
+        $(".card").mouseover(function () {
+            $(this).css("background-color", "#ff9933");
+            $(this).css("color", "#ff9933");
+        })
+        $(".card").mouseout(function () {
+            $(this).css("background-color", "#17a2b8");
+            $(this).css("color", "#17a2b8");
+        })
+
+    </script>
 
 </body>
 
