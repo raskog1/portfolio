@@ -11,48 +11,49 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
+<header class="bg-dark">
+
+    <h1 class="text-info">Ryan Skog</h1>
+
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+
+        <!-- LinkedIn Icon -->
+        <a class="header-icons" href="https://www.linkedin.com/in/ryan-skog-b4b6411aa/" target="_blank">
+            <img src="assets/Icons/LI-In-Bug.png" height="30px" alt="LinkedIn icon">
+        </a>
+
+        <!-- Github Icon -->
+        <a class="header-icons" href="https://github.com/raskog1" target="_blank">
+            <img src="assets/Icons/GitHub-Mark-120px-plus.png" height="30px" alt="Github icon">
+        </a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
+            aria-controls="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
+
 <body>
 
-    <header class="bg-dark">
-
-        <!-- Title -->
-        <h1 class="text-info">Ryan Skog</h1>
-
-        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="header-icons" href="#">
-                            <img src="assets/Icons/LI-In-Bug.png" height="45px">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="header-icons" href="#">
-                            <img src="assets/Icons/GitHub-Mark-120px-plus.png" height="45px">
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Resume</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-
-        </nav>
-
-    </header>
 
     <!--Image, bio text, and featured projects grid-->
     <div class="container">
@@ -90,8 +91,7 @@
                         <div class="col-md-4 col-lg-3">
                             <a href="https://raskog1.github.io/code-refactor/" target="_blank">
                                 <div class="card text-center">
-                                    <img src="assets/Images/horiseon.png" alt="Horiseon developer" width="200px"
-                                        height="200px">
+                                    <img src="assets/Images/horiseon.png" class="card-image" alt="Horiseon developer">
                                     <div class="card-img-overlay">
                                         <h4 class="card-title"><strong>Horiseon Code Refactor</strong></h4>
                                     </div>
@@ -101,8 +101,7 @@
                         <div class="col-md-4 col-lg-3">
                             <a href="https://raskog1.github.io/hangman/" target="_blank">
                                 <div class="card text-center">
-                                    <img src="assets/Images/hangman2.jpg" alt="Stick figure hangman" width="200px"
-                                        height="200px">
+                                    <img src="assets/Images/hangman2.jpg" class="card-image" alt="Stick figure hangman">
                                     <div class="card-img-overlay">
                                         <h4 class="card-title"><strong>JavaScript Hangman</strong></h4>
                                     </div>
@@ -112,8 +111,7 @@
                         <div class="col-md-4 col-lg-3">
                             <a href="http://raskog1.github.io/code-quiz/" target="_blank">
                                 <div class="card text-center">
-                                    <img src="assets/Images/blue.png" alt="Blue hex pattern" width="200px"
-                                        height="200px">
+                                    <img src="assets/Images/blue.png" class="card-image" alt="Blue hex pattern">
                                     <div class="card-img-overlay">
                                         <h4 class="card-title"><strong>JavaScript Code Quiz</strong></h4>
                                     </div>
@@ -123,8 +121,7 @@
                         <div class="col-md-4 col-lg-3">
                             <a href="https://raskog1.github.io/dayplanner/" target="_blank">
                                 <div class="card text-center">
-                                    <img src="assets/Images/dayplanner.png" alt="Dayplanner" width="200px"
-                                        height="200px">
+                                    <img src="assets/Images/dayplanner.png" class="card-image" alt="Dayplanner">
                                     <div class="card-img-overlay">
                                         <h4 class="card-title"><strong>Dayplanner</strong></h4>
                                     </div>
@@ -134,8 +131,8 @@
                         <div class="col-md-4 col-lg-3">
                             <a href="https://raskog1.github.io/weather-app/" target="_blank">
                                 <div class="card text-center">
-                                    <img src="assets/Images/Rain.jpg" alt="Child's drawing of rain cloud" width="200px"
-                                        height="200px">
+                                    <img src="assets/Images/Rain.jpg" class="card-image"
+                                        alt="Child's drawing of rain cloud">
                                     <div class="card-img-overlay">
                                         <h4 class="card-title"><strong>Weather App</strong></h4>
                                     </div>
@@ -145,8 +142,8 @@
                         <div class="col-md-4 col-lg-3">
                             <a href="https://raskog1.github.io/UCDBC-HappyHour/" target="_blank">
                                 <div class="card text-center">
-                                    <img src="assets/Images/quarantineMap.png" alt="Map of Sacramento" width="200px"
-                                        height="200px">
+                                    <img src="assets/Images/quarantineMap.png" class="card-image"
+                                        alt="Map of Sacramento">
                                     <div class="card-img-overlay">
                                         <h4 class="card-title"><strong>Beer me NOW!</strong></h4>
                                     </div>
@@ -212,6 +209,16 @@
 
     </div>
     <!--ends container-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
 
 </body>
 

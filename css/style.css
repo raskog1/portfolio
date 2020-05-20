@@ -58,19 +58,12 @@ img.floatLeft {
     margin: 6px;
 }
 
-/* Card image blur */
-.projects img {
-    filter: blur(2px);
-}
-
-.card-title {
-    line-height: initial;
-    vertical-align: middle;
-}
-
-/* Card hover effect */
-.card-title:hover {
-    color: #ff9933;
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: #17a2b8;
+    color: #17a2b8;
 }
 
 .card:hover {
@@ -78,12 +71,18 @@ img.floatLeft {
     background-color: #ff9933;
 }
 
-.card {
-    width: 200px;
-    height: 200px;
-    margin: 15px;
-    background-color: #17a2b8;
-    color: #17a2b8;
+.card-title {
+    line-height: initial;
+    vertical-align: middle;
+}
+
+.card-image {
+    position: relative;
+    filter: blur(2px);
+    height: 190px;
+    width: 190px;
+    left: 4px;
+    top: 4px;
 }
 
 aside {
@@ -96,9 +95,8 @@ aside ul li {
     list-style: none;
 }
 
-.contact-icons {
-    margin: auto;
-    text-align: center;
+.header-icons {
+    padding-right: 20px;
 }
 
 /*Overrides BS4 link hover color in aside*/
@@ -128,12 +126,12 @@ header {
 }
 
 header h1 {
-    padding-top: 5px;
-    font-size: 36px;
+    line-height: 58px;
+    font-size: 32px;
 }
 
 .header-icons {
-  margin-top: 10px;
+    padding-right: 8px;
 }
 
 /*Shrinks profile image*/
@@ -154,7 +152,7 @@ aside {
 .card {
     margin: 15px auto;
 }
-}
+} 
 
 @media only screen and (max-width: 980px) {
 
@@ -170,4 +168,9 @@ body {
 aside p, h3 {
     text-align: center;
 }
+} 
+
+@media only screen and (max-width: 1200px) {
+
+
 }
