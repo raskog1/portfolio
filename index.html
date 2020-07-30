@@ -1,195 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ryan Skog - Main</title>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-</head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
 
-<header class="bg-dark">
-
+  <header class="bg-dark">
     <h1 class="text-info">Ryan Skog</h1>
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!-- LinkedIn Icon -->
+      <a
+        class="header-icons"
+        href="https://www.linkedin.com/in/ryan-skog-b4b6411aa/"
+        target="_blank"
+      >
+        <img
+          src="assets/Icons/LI-In-Bug.png"
+          height="30px"
+          alt="LinkedIn icon"
+        />
+      </a>
 
-        <!-- LinkedIn Icon -->
-        <a class="header-icons" href="https://www.linkedin.com/in/ryan-skog-b4b6411aa/" target="_blank">
-            <img src="assets/Icons/LI-In-Bug.png" height="30px" alt="LinkedIn icon">
-        </a>
+      <!-- Github Icon -->
+      <a class="header-icons" href="https://github.com/raskog1" target="_blank">
+        <img
+          src="assets/Icons/GitHub-Mark-120px-plus.png"
+          height="30px"
+          alt="Github icon"
+        />
+      </a>
 
-        <!-- Github Icon -->
-        <a class="header-icons" href="https://github.com/raskog1" target="_blank">
-            <img src="assets/Icons/GitHub-Mark-120px-plus.png" height="30px" alt="Github icon">
-        </a>
+      <!-- Toggler/collapsibe Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+        aria-controls="#collapsibleNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"
-            aria-controls="#collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-
-                <li class="nav-item">
-                    <a class="nav-link" href="resume.html">Resume</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="resume.html">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+  </header>
 
-</header>
-
-<body>
-
-
+  <body>
     <!--Image, bio text, and featured projects grid-->
     <div class="container">
-
-        <!--row containing main bio section and aside-->
-        <div class="row">
-
-            <div class="col-md-12 col-lg-9">
-
-                <!--row containing profile image, main bio, and projects-->
-                <div class="row">
-
-                    <div class="col-lg-12">
-                        <img src="assets/Images/trophy.png" class="floatLeft" alt="Ryan Skog" width="250px"
-                            height="250px">
-                        <p class="text-dark">I am a learning coder/web developer based in Sacramento, California.
-                            Originally from
-                            Wisconsin, I moved to California in 2008 and grew roots by purchasing a home and starting a
-                            family. I've spent the last twelve years in the Hospitality industry as a high level
-                            manager, but am pursuing a passion that I had put to rest early on in college.
-                            <br>
-                            <br>
-                            On this page you can find my current featured projects, support websites for budding
-                            developers, an updated resume, and contact information. I would be interested to hear about
-                            and participate in any project that might help me develop my skills and knowledge base. Feel
-                            free to reach out to me at any time.</p>
-                    </div>
-
-                </div>
-
-                <!--Featured projects cards-->
-                <section class="projects">
-                    <h2 class="text-dark">Featured Projects</h2>
-                    <div class="row">
-                        <div class="col-md-4 col-lg-3">
-                            <a href="https://raskog1.github.io/code-refactor/" target="_blank">
-                                <div class="card text-center">
-                                    <img src="assets/Images/horiseon.png" class="card-image" alt="Horiseon developer">
-                                    <div class="card-img-overlay">
-                                        <h4 class="card-title"><strong>Horiseon Code Refactor</strong></h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <a href="https://raskog1.github.io/hangman/" target="_blank">
-                                <div class="card text-center">
-                                    <img src="assets/Images/hangman2.jpg" class="card-image" alt="Stick figure hangman">
-                                    <div class="card-img-overlay">
-                                        <h4 class="card-title"><strong>JavaScript Hangman</strong></h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <a href="http://raskog1.github.io/code-quiz/" target="_blank">
-                                <div class="card text-center">
-                                    <img src="assets/Images/blue.png" class="card-image" alt="Blue hex pattern">
-                                    <div class="card-img-overlay">
-                                        <h4 class="card-title"><strong>JavaScript Code Quiz</strong></h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <a href="https://raskog1.github.io/dayplanner/" target="_blank">
-                                <div class="card text-center">
-                                    <img src="assets/Images/dayplanner.png" class="card-image" alt="Dayplanner">
-                                    <div class="card-img-overlay">
-                                        <h4 class="card-title"><strong>Dayplanner</strong></h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <a href="https://raskog1.github.io/weather-app/" target="_blank">
-                                <div class="card text-center">
-                                    <img src="assets/Images/Rain.jpg" class="card-image"
-                                        alt="Child's drawing of rain cloud">
-                                    <div class="card-img-overlay">
-                                        <h4 class="card-title"><strong>Weather App</strong></h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-md-4 col-lg-3">
-                            <a href="https://raskog1.github.io/UCDBC-HappyHour/" target="_blank">
-                                <div class="card text-center">
-                                    <img src="assets/Images/quarantineMap.png" class="card-image"
-                                        alt="Map of Sacramento">
-                                    <div class="card-img-overlay">
-                                        <h4 class="card-title"><strong>Beer me NOW!</strong></h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </section>
-
+      <!--row containing main bio section and aside-->
+      <div class="row">
+        <div class="col-md-12 col-lg-9">
+          <!--row containing profile image, main bio, and projects-->
+          <div class="row">
+            <div class="col-lg-12">
+              <img
+                src="assets/Images/trophy.png"
+                class="floatLeft"
+                alt="Ryan Skog"
+                width="250px"
+                height="250px"
+              />
+              <p class="text-dark">
+                I am a learning coder/web developer based in Sacramento,
+                California. Originally from Wisconsin, I moved to California in
+                2008 and grew roots by purchasing a home and starting a family.
+                I've spent the last twelve years in the Hospitality industry as
+                a high level manager, but am pursuing a passion that I had put
+                to rest early on in college.
+                <br />
+                <br />
+                On this page you can find my current featured projects, support
+                websites for budding developers, an updated resume, and contact
+                information. I would be interested to hear about and participate
+                in any project that might help me develop my skills and
+                knowledge base. Feel free to reach out to me at any time.
+              </p>
             </div>
-            <!--ends column-->
+          </div>
 
-            <div class="col-12 col-lg-3">
+          <!--Featured projects cards-->
+          <section class="projects">
+            <h2 class="text-dark">Featured Projects</h2>
+            <div class="row">
+              <div class="col-md-4 col-lg-3">
+                <a href="https://go-2play.herokuapp.com/" target="_blank">
+                  <div class="card text-center">
+                    <img
+                      src="assets/Images/2PLAY.png"
+                      class="card-image"
+                      alt="Cassette Tape"
+                    />
+                    <div class="card-img-overlay">
+                      <h4 class="card-title"><strong>2PLAY</strong></h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <a
+                  href="https://raskog1.github.io/code-refactor/"
+                  target="_blank"
+                >
+                  <div class="card text-center">
+                    <img
+                      src="assets/Images/horiseon.png"
+                      class="card-image"
+                      alt="Horiseon developer"
+                    />
+                    <div class="card-img-overlay">
+                      <h4 class="card-title">
+                        <strong>Horiseon Code Refactor</strong>
+                      </h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <a href="https://raskog1.github.io/hangman/" target="_blank">
+                  <div class="card text-center">
+                    <img
+                      src="assets/Images/hangman2.jpg"
+                      class="card-image"
+                      alt="Stick figure hangman"
+                    />
+                    <div class="card-img-overlay">
+                      <h4 class="card-title">
+                        <strong>JavaScript Hangman</strong>
+                      </h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <a href="http://raskog1.github.io/code-quiz/" target="_blank">
+                  <div class="card text-center">
+                    <img
+                      src="assets/Images/blue.png"
+                      class="card-image"
+                      alt="Blue hex pattern"
+                    />
+                    <div class="card-img-overlay">
+                      <h4 class="card-title">
+                        <strong>JavaScript Code Quiz</strong>
+                      </h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <a
+                  href="https://raskog1.github.io/weather-app/"
+                  target="_blank"
+                >
+                  <div class="card text-center">
+                    <img
+                      src="assets/Images/Rain.jpg"
+                      class="card-image"
+                      alt="Child's drawing of rain cloud"
+                    />
+                    <div class="card-img-overlay">
+                      <h4 class="card-title"><strong>Weather App</strong></h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-4 col-lg-3">
+                <a
+                  href="https://raskog1.github.io/UCDBC-HappyHour/"
+                  target="_blank"
+                >
+                  <div class="card text-center">
+                    <img
+                      src="assets/Images/quarantineMap.png"
+                      class="card-image"
+                      alt="Map of Sacramento"
+                    />
+                    <div class="card-img-overlay">
+                      <h4 class="card-title"><strong>Beer me NOW!</strong></h4>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!--ends column-->
 
-                <!--Links sidebar-->
-                <aside class="text-dark">
-                    <h3>Support Links for Coding</h3>
-                    <p>Visit the following websites that assisted in developing this website</p>
-                    <br>
-                    <ul>
-                        <li>
-                            <h5>W3 Schools</h5>
-                            <a href="https://www.w3schools.com/" target="_blank" class="text-info">
-                                <div class=orangeHover>www.w3schools.com</div>
-                            </a>
-                        </li>
-                        <li>
-                            <h5>Stack Overflow</h5>
-                            <a href="https://stackoverflow.com/" target="_blank" class="text-info">
-                                <div class="orangeHover">stackoverflow.com</div>
-                            </a>
-                        </li>
-                        <li>
-                            <h5>Traversy Media</h5>
-                            <a href="https://www.traversymedia.com/" target="_blank" class="text-info">
-                                <div class="orangeHover">www.traversymedia.com</div>
-                            </a>
-                        </li>
-                        <li>
-                            <h5>Net Ninja</h5>
-                            <a href="https://www.thenetninja.co.uk/" target="_blank" class="text-info">
-                                <div class="orangeHover">www.thenetninja.co.uk</div>
-                            </a>
-                        </li>
-                    </ul>
-                    <!-- <div class="contact-icons">
+        <div class="col-12 col-lg-3">
+          <!--Links sidebar-->
+          <aside class="text-dark">
+            <h3>Support Links for Coding</h3>
+            <p>
+              Visit the following websites that assisted in developing this
+              website
+            </p>
+            <br />
+            <ul>
+              <li>
+                <h5>Code with Mosh</h5>
+                <a
+                  href="https://codewithmosh.com/"
+                  target="_blank"
+                  class="text-info"
+                >
+                  <div class="orangeHover">www.codewithmosh.com</div>
+                </a>
+              </li>
+              <li>
+                <h5>W3 Schools</h5>
+                <a
+                  href="https://www.w3schools.com/"
+                  target="_blank"
+                  class="text-info"
+                >
+                  <div class="orangeHover">www.w3schools.com</div>
+                </a>
+              </li>
+              <li>
+                <h5>Stack Overflow</h5>
+                <a
+                  href="https://stackoverflow.com/"
+                  target="_blank"
+                  class="text-info"
+                >
+                  <div class="orangeHover">stackoverflow.com</div>
+                </a>
+              </li>
+              <li>
+                <h5>Traversy Media</h5>
+                <a
+                  href="https://www.traversymedia.com/"
+                  target="_blank"
+                  class="text-info"
+                >
+                  <div class="orangeHover">www.traversymedia.com</div>
+                </a>
+              </li>
+              <li>
+                <h5>Net Ninja</h5>
+                <a
+                  href="https://www.thenetninja.co.uk/"
+                  target="_blank"
+                  class="text-info"
+                >
+                  <div class="orangeHover">www.thenetninja.co.uk</div>
+                </a>
+              </li>
+            </ul>
+            <!-- <div class="contact-icons">
                         <a href="#">
                             <img src="assets/Icons/LI-In-Bug.png" height="100px">
                         </a>
@@ -199,36 +286,38 @@
                         </a>
 
                     </div> -->
-                </aside>
-
-            </div>
-            <!--ends column-->
-
+          </aside>
         </div>
-        <!--ends row-->
-
+        <!--ends column-->
+      </div>
+      <!--ends row-->
     </div>
     <!--ends container-->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 
-</body>
-
-<footer class="fixed-bottom pt-3 bg-white">
-    <h6>All projects made in collaboration with UC Davis Extension - Full Stack Coding Bootcamp</h6>
+  <footer class="fixed-bottom pt-3 bg-white">
+    <h6>
+      All projects made in collaboration with UC Davis Extension - Full Stack
+      Coding Bootcamp
+    </h6>
     <p>
-        &copy; 2020 Ryan Skog
+      &copy; 2020 Ryan Skog
     </p>
-</footer>
-
-
-
+  </footer>
 </html>
