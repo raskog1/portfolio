@@ -1,0 +1,12 @@
+.floatLeft {
+  float: left;
+  margin-right: 12px;
+}
+
+@media only screen and (max-width: 640px) {
+  /*Shrinks profile image*/
+  .floatLeft {
+    width: 150px;
+    height: 150px;
+  }
+}

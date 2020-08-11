@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding-bottom: 60px;
+  background-image: url("./sand.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Photo by Anchor Lee on Unsplash */
+}
+
+/*Featured Projects Header*/
+h2 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+a {
+  font-size: 18px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+aside ul li {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: 30px auto;
+  position: relative;
+  font-family: "Quicksand", sans-serif;
+}
+
+/*Overrides BS4 link hover color in aside*/
+.orangeHover:hover {
+  color: #ff9933;
+}
+
+footer {
+  text-align: center;
+  background-color: #17a2b8;
+}
+
+@media only screen and (max-width: 640px) {
+  /*Shrinks text for better wrapping around image*/
+  body {
+    font-size: 14px;
+  }
+
+  aside {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  aside {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  body {
+    padding-bottom: 100px;
+  }
+
+  aside p,
+  h3 {
+    text-align: center;
+  }
+
+  .projects h2 {
+    text-align: center;
+  }
+}
