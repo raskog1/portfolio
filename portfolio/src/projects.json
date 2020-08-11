@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "2PLAY",
+    "link": "https://go-2play.herokuapp.com/",
+    "image": "../assets/Images/2PLAY.png",
+    "alt": "Cassette Tape",
+    "description": "A playlist making app for you and your copilot, powered by Spotify, and built using mySQL, Handlebars, jQuery, Express, and Node.js.",
+    "contributors": ["Alexandra Noto", "Anthony Simone", "Scott Glover"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Juniper's Weather",
+    "link": "https://raskog1.github.io/weather-app/",
+    "image": "../assets/Images/Rain.jpg",
+    "alt": "Child's drawing of rain cloud",
+    "description": "Get your weather information from a child in a web app featuring drawings by Juniper. Built with the AllWeather API and jQuery, and utilizing Local Storage.",
+    "contributors": "",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Code Quiz",
+    "link": "http://raskog1.github.io/code-quiz/",
+    "image": "../assets/Images/blue.png",
+    "alt": "Blue hex pattern",
+    "description": "Test your coding knowledge with this quick coding quiz covering elements from HTML, CSS, and JavaScript. Check your high score on the leaderboard.",
+    "contributors": "",
+    "featured": true
+  }
+]

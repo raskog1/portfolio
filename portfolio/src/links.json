@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Code with Mosh",
+    "website": "https://codewithmosh.com/",
+    "www": "www.codewithmosh.com"
+  },
+  {
+    "id": 2,
+    "name": "W3 Schools",
+    "website": "https://www.w3schools.com/",
+    "www": "www.w3schools.com"
+  },
+  {
+    "id": 3,
+    "name": "Stack Overflow",
+    "website": "https://stackoverflow.com/",
+    "www": "www.stackoverflow.com"
+  },
+  {
+    "id": 4,
+    "name": "Traversy Media",
+    "website": "https://www.traversymedia.com/",
+    "www": "www.traversymedia.com"
+  },
+  {
+    "id": 5,
+    "name": "Net Ninja",
+    "website": "https://www.thenetninja.co.uk/",
+    "www": "www.thenetninja.co.uk"
+  }
+]
