@@ -60,15 +60,11 @@ img.floatLeft {
 
 .card {
     width: 200px;
-    height: 200px;
-    margin: 15px;
+    height: 230px;
+    margin: 7.5px;
+    text-align: center;
     background-color: #17a2b8;
     color: #17a2b8;
-}
-
-.card:hover {
-    color: #ff9933;
-    background-color: #ff9933;
 }
 
 .card-title {
@@ -81,15 +77,42 @@ img.floatLeft {
     filter: blur(2px);
     height: 190px;
     width: 190px;
-    left: 4px;
     top: 4px;
+}
+
+.card-img-overlay {
+    height: 200px;
+    color: #17a2b8;
+}
+
+.projectLink {
+    padding: 0;
+    text-align: center;
+}
+
+.repoLink {
+    color: black;
+    font-size: 16px;
+    position: relative;
+    top: -12px;
 }
 
 aside {
     margin-left: 30px;
 }
 
-aside ul li {
+.skills {
+    background-color: #17a2b8;
+    border-radius: 10px;
+}
+
+.skills li {
+    list-style: none;
+    padding: 0 10px;
+    
+}
+
+.helpLink li {
     margin-bottom: 40px;
     margin-left: 20px;
     list-style: none;
@@ -101,6 +124,7 @@ aside ul li {
 
 /*Overrides BS4 link hover color in aside*/
 .orangeHover:hover {
+    font-weight: bold;
     color: #ff9933;
 }
 
@@ -181,8 +205,17 @@ body {
     text-align: center;
 }
 
-aside p, h3 {
+aside p, h3, h5, a {
     text-align: center;
+}
+
+aside, h3 {
+    margin-top: 30px;
+}
+
+aside .skills {
+    width: 70%;
+    margin: auto;
 }
 } 
 
