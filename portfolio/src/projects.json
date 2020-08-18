@@ -5,6 +5,7 @@
     "link": "https://go-2play.herokuapp.com/",
     "image": "../assets/Images/2PLAY.png",
     "alt": "Cassette Tape",
+    "github": "https://github.com/raskog1/2PLAY",
     "description": "A playlist making app for you and your copilot, powered by Spotify, and built using mySQL, Handlebars, jQuery, Express, and Node.js.",
     "contributors": ["Alexandra Noto", "Anthony Simone", "Scott Glover"],
     "featured": true
@@ -15,6 +16,7 @@
     "link": "https://raskog1.github.io/weather-app/",
     "image": "../assets/Images/Rain.jpg",
     "alt": "Child's drawing of rain cloud",
+    "github": "https://github.com/raskog1/weather-app",
     "description": "Get your weather information from a child in a web app featuring drawings by Juniper. Built with the AllWeather API and jQuery, and utilizing Local Storage.",
     "contributors": "",
     "featured": true
@@ -25,7 +27,85 @@
     "link": "http://raskog1.github.io/code-quiz/",
     "image": "../assets/Images/blue.png",
     "alt": "Blue hex pattern",
+    "github": "https://github.com/raskog1/code-quiz",
     "description": "Test your coding knowledge with this quick coding quiz covering elements from HTML, CSS, and JavaScript. Check your high score on the leaderboard.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "JavaScript Hangman",
+    "link": "https://raskog1.github.io/hangman/",
+    "image": "../assets/Images/hangman2.jpg",
+    "alt": "Stick figure hangman",
+    "github": "https://github.com/raskog1/hangman",
+    "description": "Welcome to the wild wild west, where justice is decided by a bizarre game of hangman from the future.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "name": "Bob's Burgers Burger Eater",
+    "link": "https://bobs-burgers-burger-eater.herokuapp.com/",
+    "image": "../assets/Images/burgers.png",
+    "alt": "Burger neon sign",
+    "github": "https://github.com/raskog1/burger",
+    "description": "Devour, regurgitate, and create your own burgers in the Bob's Burgers inspired exercise using Handlebars and mySQL.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Dayplanner",
+    "link": "https://raskog1.github.io/dayplanner/",
+    "image": "../assets/Images/dayplanner.png",
+    "alt": "Dayplanner",
+    "github": "https://github.com/raskog1/dayplanner",
+    "description": "Keep track of your daily appointments in style, utilizing local storage in your browser.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "FFXIV Mounts",
+    "link": "https://ffxiv-mount-finder.netlify.app/",
+    "image": "../assets/Images/mounts.png",
+    "alt": "Ahriman Mount",
+    "github": "https://github.com/raskog1/mount-tracker",
+    "description": "Browse, sort, and view your favorite FFXIV Mounts in this simple React application, click on any mount to obtain more information.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "link": "https://workout-tracker-08042020.herokuapp.com/",
+    "image": "../assets/Images/workoutChart.png",
+    "alt": "Pie chart",
+    "github": "https://github.com/raskog1/workout-tracker",
+    "description": "Workout logging is hard, but not with this app utilizing mongoDB and Mongoose to store, retrieve, and compile results.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Offline Budget Tracker",
+    "link": "https://raskog1-offline-budget-tracker.herokuapp.com/",
+    "image": "../assets/Images/budgetChart.png",
+    "alt": "Line chart",
+    "github": "https://github.com/raskog1/offline-budget-tracker",
+    "description": "No need to sweat your budget when travelling, this handy app works on or offline using indexDB to provide peace of mind.",
+    "contributors": "",
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "Coming Out of Quarantine",
+    "link": "https://raskog1.github.io/HappyHour/",
+    "image": "../assets/Images/quarantineMap.png",
+    "alt": "Map of Sacramento",
+    "github": "https://github.com/raskog1/HappyHour",
+    "description": "Everyone will need a drink coming out of quarantine, using jQuery, this app will lead you to the nearest watering hole or taco truck with the MapBox and Zomato API's.",
     "contributors": "",
     "featured": true
   }

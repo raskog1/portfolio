@@ -13,11 +13,16 @@ function Profile() {
           height="250px"
         />
         <p className="text-dark">
-          I am a learning coder/web developer based in Sacramento, California.
-          Originally from Wisconsin, I moved to California in 2008 and grew
-          roots by purchasing a home and starting a family. I've spent the last
-          twelve years in the Hospitality industry as a high level manager, but
-          am pursuing a passion that I had put to rest early on in college.
+          I am a Front-end Web Developer with a Bachelor’s Degree in Art from
+          the University of Wisconsin. I also bring graduate training with focus
+          in animation and visual effects. I am combining my strengths in art
+          and development to create visually impactful websites. My bootcamp
+          experience at UC Davis provided me with a Certificate in Full-Stack
+          Web Development, along with the opportunity to collaborate on projects
+          with other students, mentor, problem solve on the fly, and immerse
+          myself in the web design experience. I aim to bring an artistic eye
+          with an underlying understanding of code and development to bring to
+          life high-quality web experiences.
           <br />
           <br />
           On this page you can find my current featured projects, support
