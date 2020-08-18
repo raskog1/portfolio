@@ -9,7 +9,7 @@ import projects from "./projects.json";
 import links from "./links.json";
 
 class App extends React.Component {
-  state = { projects: projects };
+  // state = { projects: projects };
 
   render() {
     return (
@@ -22,12 +22,9 @@ class App extends React.Component {
             {/* Column containing main bio section and projects */}
             <div className="col-md-12 col-lg-9">
               <Profile />
-
               {/* Projects section */}
-              <section className="projects">
-                <h2 className="text-dark">Featured Projects</h2>
-                <Projects projects={this.state.projects} />
-              </section>
+              {/* <Projects projects={this.state.projects} /> */}
+              <Projects projects={projects} />
             </div>
 
             {/* Links aside */}

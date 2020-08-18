@@ -28,5 +28,15 @@
     "description": "Test your coding knowledge with this quick coding quiz covering elements from HTML, CSS, and JavaScript. Check your high score on the leaderboard.",
     "contributors": "",
     "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Hangman",
+    "link": "https://raskog1.github.io/hangman/",
+    "image": "../assets/Images/hangman2.jpg",
+    "alt": "Stick figure hangman",
+    "description": "Welcome to the wild wild west, where justice is decided by a bizarre game of hangman from the future.",
+    "contributors": "",
+    "featured": false
   }
 ]
